@@ -18,4 +18,7 @@ def greet(language):
         "swedish": "Valkommen",
         "welsh": "Croeso"
     }
-    pass # your code here
+    if language in greet_db:
+        print(greet_db[language])
+    else:
+        print(greet_db["english"])
