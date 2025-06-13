@@ -1,2 +1,5 @@
 def number(lines):
-    for i, item in enumerate()
+    new_list = []
+    for i, item in enumerate(lines, 1):
+        new_list.append(f"")    
+    return f""
