@@ -12,6 +12,7 @@ def parse(data):
                 num ** 2
             case "o":       #output
                 result.append(num)
+        print(f"{i}: {result}")
     return result 
 
-print(parse("isoisoiso"))
+parse('iiisxxxdoso')
