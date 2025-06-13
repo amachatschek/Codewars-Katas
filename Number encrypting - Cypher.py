@@ -1,8 +1,9 @@
 def cypher(s):
-    nums = [x for x in range(10)]
+    nums = [str(x) for x in range(10)]
     ltrs = [("O", "o"), ("I", "l"), ("R", "z"), ("E", "e"), ("A", "a"), ("S", "s"), ("G", "b"), ("T", "t"), ("B",), ("g",)]
-    transl = dict(zip(ltrs, nums))
-    for o, l in ltrs.items():
-        
+    transl = dict(zip(nums, ltrs))
+    
+    return s, transl
+
 
 print(cypher("Hello World"))
