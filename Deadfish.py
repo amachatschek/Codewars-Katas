@@ -1,6 +1,7 @@
 def parse(data):
     num = 0
-    [i for i in data]
-    for i in data:
+    chars = [x for x in data]
+    
+    return chars
 
-    return []
+print(parse("idoiido"))
