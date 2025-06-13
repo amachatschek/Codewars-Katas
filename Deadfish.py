@@ -1,7 +1,17 @@
 def parse(data):
+    result = []
     num = 0
     chars = [x for x in data]
-    
-    return chars
+    for i in chars:
+        match i:
+            case "i":       #increment
+                num += 1    
+            case "d":       #decrement
+                num -= 1
+            case "s":       #square
+                num ** 2
+            case "o":       #output
+                result.append(num)
+    return result 
 
-print(parse("idoiido"))
+print(parse("isoisoiso"))
