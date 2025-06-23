@@ -12,4 +12,4 @@ def is_anagram(test, original):
         return False 
 
 print(is_anagram("dumble", "bumble"))
-    
+print(is_anagram("bored", "robed"))
