@@ -1,5 +1,5 @@
 def digitize(n):
-    nlist = i for i in n
+    nlist = [i for i in str(n)].sort(reverse=True)
     print(nlist)
     return 
 
