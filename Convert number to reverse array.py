@@ -1,6 +1,6 @@
 def digitize(n):
     nlist = [i for i in str(n)].sort(reverse=True)
     print(nlist)
-    return 
+    return nlist
 
 digitize(35231)
